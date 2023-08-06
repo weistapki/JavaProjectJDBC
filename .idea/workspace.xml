@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55e73dd5-09e8-402d-af2f-f3b902b157c2" name="Changes" comment="added package model,repository,dao.&#10;added SingletonConnection">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exaption/NoSuchSQLIdException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exaption/ObjectNotSavedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exaption/QuestionListEmptyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exaption/QuestionNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exaption/QuestionsNotRetrievedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exaption/RecordNotUpdatedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exaption/RecordsNotDeletedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exaption/TopicsNotRetrievedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fake/FakeQuestionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fake/FakeTopicRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/QuestionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/service/QuestionServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/QuestionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/QuestionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/TopicRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/TopicRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Topic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/QuestionRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/QuestionRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repository/TopicRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repository/TopicRepositoryImpl.java" afterDir="false" />
+    <list default="true" id="55e73dd5-09e8-402d-af2f-f3b902b157c2" name="Changes" comment="minor changes package model,repository,dao.&#10;added package exaption,fake,service.&#10;added testing service.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Shell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -39,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="vilka1" />
+        <entry key="$PROJECT_DIR$" value="vilka2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +53,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="JavaProjectJDBC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuestionServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaProjectJDBC" />
       <extension name="coverage">
@@ -85,6 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.QuestionServiceTest" />
       </list>
     </recent_temporary>
@@ -97,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691242181889</updated>
-      <workItem from="1691242183468" duration="2736000" />
+      <workItem from="1691242183468" duration="5803000" />
     </task>
     <task id="LOCAL-00001" summary="added package model,repository,dao.&#10;added SingletonConnection">
       <created>1691243017883</created>
@@ -106,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691243017883</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="minor changes package model,repository,dao.&#10;added package exaption,fake,service.&#10;added testing service.">
+      <created>1691245247690</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691245247690</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added package model,repository,dao.&#10;added SingletonConnection" />
-    <option name="LAST_COMMIT_MESSAGE" value="added package model,repository,dao.&#10;added SingletonConnection" />
+    <MESSAGE value="minor changes package model,repository,dao.&#10;added package exaption,fake,service.&#10;added testing service." />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes package model,repository,dao.&#10;added package exaption,fake,service.&#10;added testing service." />
   </component>
 </project>
